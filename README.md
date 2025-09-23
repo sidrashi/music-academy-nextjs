@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎵 Music Academy Website
 
-## Getting Started
+This is a **Music Academy website** built with **Next.js** and styled using **Aceternity UI**.  
+It provides an elegant platform to explore available courses
 
-First, run the development server:
+---
 
+## 🌐 Live Demo
+👉 [View Website on Vercel](https://music-academy-nextjs.vercel.app)  
+
+---
+
+## 🚀 Features
+- Built with **Next.js (React framework)**
+- Styled with **Aceternity UI** for modern and responsive design
+- Courses page showcasing music learning programs
+- Contact page with form and academy details
+- SEO optimized for better visibility
+- Easy deployment on **Vercel** or **Netlify**
+
+---
+
+## 📂 Project Structure
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+.
+├── public/          # Static assets (images, icons, etc.)
+├── src/             # Main source code
+│   ├── components/  # Reusable UI components (built with Aceternity UI)
+│   ├── pages/       # Next.js pages (Home, Courses, Contact)
+│   └── lib/        # Utility functions
+├── package.json     # Project dependencies
+└── README.md        # Documentation
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🎶 Pages
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Home Page → Introduction to the Music Academy
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Courses Page → Displays available music courses (e.g., Guitar, Piano, Vocals, Drums)
 
-## Learn More
+Contact Us Page → Contact form + Academy details
 
-To learn more about Next.js, take a look at the following resources:
+📦 Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Next.js – React framework for SSR & SSG
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Aceternity UI – UI component library for styling
 
-## Deploy on Vercel
+Tailwind CSS – Utility-first CSS framework
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Node.js + npm – Package management
