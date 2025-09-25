@@ -86,7 +86,7 @@ export const MovingBorder = ({
   [key: string]: any;
 }) => {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const pathRef = useRef<any>();
+  const pathRef = useRef<any>(null);
   const progress = useMotionValue<number>(0);
 
   useAnimationFrame((time) => {
